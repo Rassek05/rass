@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #84a98c;
+  color: #007aff;
   text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #52796f;
+  background: #007aff;
   color: #fff;
 }
 
@@ -1145,7 +1145,7 @@ section {
   font-size: 16px;
   font-weight: 600;
   color: #fff;
-  background: #84a98c;
+  background: #007aff;
 }
 
 .pricing h4 {
@@ -1219,7 +1219,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #84a98c;
+  background: #007aff;
 }
 
 .pricing .advanced {
@@ -1288,7 +1288,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #84a98c;
+  color: #007aff;
 }
 
 .faq .faq-list .icon-show,
