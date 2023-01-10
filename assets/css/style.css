@@ -145,6 +145,7 @@ h6 {
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
+  color: white;
 }
 
 #header .logo a {
@@ -578,6 +579,11 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+}
+
+.section-paragraph {
+  text-align: center;
+  padding-top: 30px;
 }
 
 .section-title h2 {
