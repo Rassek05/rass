@@ -45,32 +45,18 @@
       <!-- <a href="../../../../index.html" class="logo"><img src="../../assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto " href="../../index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="../../#about">About</a></li>
-          <li><a class="nav-link scrollto" href="../../#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="../../#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="../../#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-        </ul>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#services">Services</a></li>
+            <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+            </li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
@@ -264,6 +250,38 @@
       </div>
     </div>
   </section>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Let's Work Together</h2>
+          <p>
+            Send us a message with your questions or project specifications
+            to get the conversation started and we’ll reply within 24 hours!</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Us</h3>
+              <p>contact@example.com</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Us</h3>
+              <p>+54 911 7645 6499</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
  
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -274,11 +292,8 @@
 
           <div class="col-lg-4 col-md-6 footer-contact">
             <h3>RASS</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
+            <p class="contact-footer">
+              <strong>Phone:</strong> +54 911 7645 6499<br>
               <strong>Email:</strong> info@example.com<br>
             </p>
           </div>
@@ -286,11 +301,11 @@
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="../../#hero">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="../../#about">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="../../#services">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/pages/terms-of-service/index.html">Terms & Conditions</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/pages/terms-of-service/privacy-policy.html">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="pages/terms-of-service/index.html">Terms & Conditions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="pages/terms-of-service/privacy-policy.html">Privacy policy</a></li>
             </ul>
           </div>
 
@@ -305,6 +320,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="/pages/services pages/logo_design.html">Logo Design</a></li>
             </ul>
           </div>
+
         </div>
       </div>
     </div>
@@ -314,14 +330,14 @@
       <div class="copyright-wrap d-md-flex py-4">
         <div class="me-md-auto text-center text-md-start">
           <div class="copyright">
-            &copy; Copyright <strong><span>RASS</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>RASS</span></strong>. All Rights Reserved.
           </div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/RASS-free-skin-bootstrap-3/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            
           </div>
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
